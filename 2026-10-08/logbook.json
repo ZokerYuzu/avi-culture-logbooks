@@ -7,5 +7,5 @@
   "hasil_output": "Sistem lokalisasi bilingual reaktif berjalan instan tanpa reload browser, build produksi Vite sukses tanpa error, dan dokumentasi CHANGELOG.md terbarui.",
   "kendala": "Tidak ada kendala fatal, seluruh komponen Vue terintegrasi dengan mulus ke composable useLocale.",
   "refleksi": "Pentingnya arsitektur kamus lokalisasi terpusat dan penegakan batas privasi data secara konsisten sejak level komponen antarmuka agar integritas sensus tetap terjaga.",
-  "bukti_dukung": "screenshots/screenshot-2026-10-08.png"
+  "bukti_dukung": "2026-10-08/screenshot.png"
 }

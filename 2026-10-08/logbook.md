@@ -5,7 +5,7 @@
 - **Proyek Acuan**: AVI Culture (`avi-culture-mysql`)
 - **Web Live**: [https://culture.yudhapratama.my.id/](https://culture.yudhapratama.my.id/)
 - **Cabang Git (Branch)**: `refactor/achpi`
-- **Bukti Dukung (Screenshot)**: `screenshots/screenshot-2026-10-08.png`
+- **Bukti Dukung (Screenshot)**: [screenshot.png](screenshot.png)
 
 ---
 

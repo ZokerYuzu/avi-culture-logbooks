@@ -5,11 +5,21 @@ Repositori publik khusus arsip laporan logbook harian magang dan tangkapan layar
 > [!NOTE]
 > Repositori ini diperbarui secara otomatis setiap hari kerja pada pukul **16:30 WIB** oleh background automation Antigravity dan dikonsumsi langsung oleh AI agent personal (Rin) melalui GitHub API untuk pencatatan otomatis ke Google Sheets.
 
-## Struktur Repositori
+## Struktur Repositori (Per-Folder Harian)
 ```
 .
-├── logbook-YYYY-MM-DD.md        # Laporan harian human-readable (Markdown)
-├── logbook-YYYY-MM-DD.json      # Payload terstruktur machine-readable (JSON)
-└── screenshots/
-    └── screenshot-YYYY-MM-DD.png # Screenshot bukti kerja harian
+├── README.md
+├── 2026-10-08/
+│   ├── logbook.md           # Laporan harian human-readable (Markdown)
+│   ├── logbook.json         # Payload terstruktur machine-readable (JSON untuk Rin)
+│   └── screenshot.png       # Screenshot bukti kerja harian
+└── YYYY-MM-DD/
+    ├── logbook.md
+    ├── logbook.json
+    └── screenshot.png
 ```
+
+## Akses GitHub API untuk Rin
+- **JSON Endpoint**: `https://api.github.com/repos/ZokerYuzu/avi-culture-logbooks/contents/{YYYY-MM-DD}/logbook.json`
+- **Raw JSON**: `https://raw.githubusercontent.com/ZokerYuzu/avi-culture-logbooks/main/{YYYY-MM-DD}/logbook.json`
+- **Screenshot**: `https://raw.githubusercontent.com/ZokerYuzu/avi-culture-logbooks/main/{YYYY-MM-DD}/screenshot.png`
